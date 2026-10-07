@@ -1,0 +1,60 @@
+import { GalleryItem } from './types';
+
+export const galleryData: GalleryItem[] = [
+  {
+    id: 'gal-1',
+    title: 'Marigold Floral Garlands',
+    category: 'decor',
+    aspectRatio: '4:3',
+    imageKey: 'gallery_marigold',
+    altText: 'Vibrant yellow and orange marigold floral garlands draping an entry archway.',
+  },
+  {
+    id: 'gal-2',
+    title: 'Diya Staircase Illumination',
+    category: 'decor',
+    aspectRatio: '3:4',
+    imageKey: 'gallery_diya',
+    altText: 'Staircase lined with glowing brass oil lamps and warm evening candlelight.',
+  },
+  {
+    id: 'gal-3',
+    title: 'Fresh Floral Rangoli',
+    category: 'decor',
+    aspectRatio: '1:1',
+    imageKey: 'gallery_rangoli',
+    altText: 'Intricate fresh flower petal rangoli pattern on polished courtyard stone floor.',
+  },
+  {
+    id: 'gal-4',
+    title: 'Architectural Stone Arch Entrance',
+    category: 'spaces',
+    aspectRatio: '3:4',
+    imageKey: 'gallery_arch',
+    altText: 'Grand stone arch entrance illuminated by subtle warm up-lighting.',
+  },
+  {
+    id: 'gal-5',
+    title: 'Banquet Table Setting',
+    category: 'spaces',
+    aspectRatio: '4:3',
+    imageKey: 'gallery_banquet',
+    altText: 'Fine banquet dining table setting with gold cutlery, glass stems, and ivory napery.',
+  },
+  {
+    id: 'gal-6',
+    title: 'Illuminated Lawn Pathway',
+    category: 'lawns',
+    aspectRatio: '1:1',
+    imageKey: 'gallery_lawn',
+    altText: 'Lit garden pathway leading through green estate lawns at dusk.',
+  },
+  {
+    id: 'gal-7',
+    title: 'Brass Urli Floral Floating Petals',
+    category: 'decor',
+    aspectRatio: '4:3',
+    imageKey: 'gallery_urli',
+    altText: 'Traditional carved brass urli bowl filled with floating jasmine and rose petals.',
+  },
+];
